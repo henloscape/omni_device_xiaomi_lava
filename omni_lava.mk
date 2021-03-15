@@ -16,9 +16,9 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME := lancelot
+PRODUCT_RELEASE_NAME := lava
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-DEVICE_PATH := device/xiaomi/lancelot
+DEVICE_PATH := device/xiaomi/lava
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -38,9 +38,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := lancelot
-PRODUCT_NAME := omni_lancelot
+PRODUCT_DEVICE := lava
+PRODUCT_NAME := omni_lava
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi 9
 PRODUCT_MANUFACTURER := xiaomi
-PRODUCT_RELEASE_NAME := Redmi 9

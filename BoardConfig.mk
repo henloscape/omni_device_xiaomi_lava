@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/lancelot
+DEVICE_PATH := device/xiaomi/lava
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -84,7 +84,7 @@ TARGET_BOOTLOADER_BOARD_NAME := mt6768
 TARGET_BOARD_PLATFORM_GPU := Mali-G52 MC2
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lancelot
+TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
